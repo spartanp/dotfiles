@@ -22,6 +22,7 @@
 	# Undo a `git push`
 	undopush = push -f origin HEAD^:master
 	co = checkout
+	st = status
 
 [apply]
 	# Detect whitespace errors when applying a patch
