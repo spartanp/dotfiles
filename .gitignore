@@ -17,3 +17,6 @@ target
 .settings
 .classpath
 *.iml
+
+# version control
+*.svn
