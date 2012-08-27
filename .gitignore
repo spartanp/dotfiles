@@ -20,3 +20,6 @@ target
 
 # version control
 *.svn
+
+# patch
+*.orig
