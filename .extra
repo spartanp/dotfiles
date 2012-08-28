@@ -11,5 +11,6 @@ GIT_AUTHOR_EMAIL="pnatarajan@constantcontact.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 
-# some private stuff
+# aliases
 alias editjs="mate /Applications/Server.app/Contents/ServerRoot/usr/share/devicemgr/frontend/admin/en.lproj/app/javascript.js"
+alias server_vers="defaults read /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerVersion ProductBuildVersion"
